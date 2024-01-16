@@ -30,13 +30,14 @@ header {
   right: 75%;
   height: 94%;
   width: 25%;
+  word-wrap: break-word;
   background: #B3C6D9;
 }
 
 h2 {
-  position: absolute;
-  top: 7%;
-  left: 17%;
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
   font-family: 'Salsa', cursive;
   font-size: 100px;
   color:#640002;
@@ -84,8 +85,8 @@ main {
 }
 
 img {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
 }
 
 footer {
